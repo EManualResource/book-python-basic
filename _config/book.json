@@ -1,0 +1,5 @@
+{
+    "gitbook": ">=2.0.0",
+    "title": "零基础学Python",
+    "plugins": ["-sharing","-search"]
+}

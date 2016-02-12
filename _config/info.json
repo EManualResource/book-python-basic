@@ -1,0 +1,17 @@
+{
+	"info": {
+		"name": "python-basic",
+		"name_cn": "零基础学Python",
+		"md5": "18b45a9502743656c90ff1cc16fe157b",
+		"icon_url": "http://emanualresource.github.io/resource/icons/python.png",
+		"url": "http://emanualresource.github.io/book-python-basic/dist/book.zip",
+		"author": "qiwsir",
+		"homepage": "https://github.com/looly/python-basic",
+		"maintainers": [
+			{
+				"name": "Jayin Ton",
+				"email": "tonjayin@gmail.com"
+			}
+		]
+	}
+}
