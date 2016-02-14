@@ -1,3 +1,5 @@
+MAKEFILE_VERSION=2
+
 SOURCE=./source
 SOURCE_CONFIG_FILE=$(SOURCE)/book.json
 TMP_BOOK=./book
@@ -29,7 +31,7 @@ build:
 package:
 	cp $(TMP_BOOK)/book.json $(DEST)/book
 	cp -rf $(EXT_LICENSE) $(DEST)/book/_license
-	cd dist && zip -vr ./book.zip ./book/ 
+	cd $(DEST) && zip -vr book.zip book/ 
 
 	# post package
 	md5 $(DEST)/book.zip > $(DEST)/md5
